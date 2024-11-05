@@ -10,7 +10,7 @@ export class MoviesController {
 
     @Get("/:id")
     getOne(@Param('id') movieId: string){ // 파라미터 값 받기
-        return `This will return one movie whit the id: ${movieId}`
+        return `This will return one movie with the id: ${movieId}`
     }
 
     @Post()
